@@ -1,94 +1,104 @@
-****🍾 Champagne Sales Forecasting using Time Series Analysis****
+# 🍾 Champagne Sales Forecasting using Time Series Analysis
 
-**📌 Overview**
+<div align="center">
 
-This project focuses on forecasting monthly champagne sales using Time Series Analysis techniques. The workflow covers complete data preprocessing, exploratory analysis, stationarity testing, seasonal differencing, and forecasting using ARIMA/SARIMA models.
+### 📈 Forecasting Monthly Champagne Sales using ARIMA & SARIMA Models
 
-The project demonstrates practical skills in:
+End-to-end Time Series Forecasting project covering data preprocessing, stationarity testing, seasonal differencing, trend analysis, and future sales prediction using statistical forecasting techniques.
 
-Time Series Forecasting
-Statistical Analysis
-Predictive Modeling
-Data Visualization
-Business Forecasting
+</div>
 
-**🚀 Features**
+---
 
-Data Cleaning & Preprocessing
-Trend & Seasonality Analysis
-Stationarity Testing (ADF Test)
-Seasonal Differencing
-ARIMA/SARIMA Forecasting
-Future Sales Prediction
-Forecast Visualization
+# 🚀 Project Overview
 
-**🛠️ Tech Stack**
+This project focuses on analyzing and forecasting monthly champagne sales using **Time Series Analysis** techniques. The notebook demonstrates a complete real-world forecasting workflow including:
 
-Python
-Pandas
-NumPy
-Matplotlib
-Statsmodels
-Jupyter Notebook
+✔️ Data Cleaning & Preprocessing  
+✔️ Exploratory Data Analysis (EDA)  
+✔️ Stationarity Testing  
+✔️ Seasonal Differencing  
+✔️ ARIMA/SARIMA Modeling  
+✔️ Future Sales Forecasting  
+✔️ Forecast Visualization  
 
-**📂 Dataset**
+The project showcases strong practical understanding of **predictive analytics**, **statistical modeling**, and **business forecasting**.
 
-Dataset used: Perrin Freres Monthly Champagne Sales
+---
 
-Features:
-Month
-Sales
+# 🛠️ Tech Stack
 
-**📊 Project Workflow**
+<div align="center">
 
-1️⃣ Data Preprocessing
+| Technology | Usage |
+|---|---|
+| **Python** | Core Programming |
+| **Pandas & NumPy** | Data Analysis |
+| **Matplotlib** | Visualization |
+| **Statsmodels** | Time Series Modeling |
+| **Jupyter Notebook** | Development Environment |
 
-Handling missing values
-Datetime conversion
-Setting time index
+</div>
 
-2️⃣ Exploratory Data Analysis
+---
 
-Trend visualization
-Seasonal pattern analysis
-Rolling statistics
+# 📂 Dataset
 
-3️⃣ Stationarity Testing
+### **Dataset Used:**  
+📌 *Perrin Freres Monthly Champagne Sales Dataset*
 
+### **Features**
+- `Month`
+- `Sales`
+
+---
+
+# 📊 Project Workflow
+
+## 🔹 1. Data Preprocessing
+- Handling missing values
+- Datetime conversion
+- Time indexing
+
+## 🔹 2. Exploratory Data Analysis
+- Trend visualization
+- Seasonal pattern analysis
+- Rolling statistics
+
+## 🔹 3. Stationarity Testing
 Implemented:
+- Rolling Mean & Standard Deviation
+- Augmented Dickey-Fuller (ADF) Test
 
-Rolling Mean & Standard Deviation
-Augmented Dickey-Fuller (ADF) Test
+## 🔹 4. Feature Engineering
+- Seasonal Differencing
+- Lag Analysis
 
-4️⃣ Feature Engineering
+## 🔹 5. Model Building
+Implemented forecasting models:
+- **ARIMA**
+- **SARIMA**
 
-Seasonal Differencing
+## 🔹 6. Forecasting
+Generated future monthly sales predictions with forecast visualization.
 
-Lag Analysis
+---
 
-5️⃣ Model Building
+# 📈 Results
 
-Implemented:
+The forecasting model successfully captures:
 
--ARIMA
--SARIMA
+✅ Sales Trends  
+✅ Seasonal Patterns  
+✅ Future Demand Forecasting  
 
-6️⃣ Forecasting
+This project demonstrates how statistical forecasting models can solve real-world business prediction problems.
 
-Generated future monthly sales predictions with visualized forecast trends.
+---
 
-**📈 Results**
+# 💡 Key Concepts Covered
 
-The model successfully captures:
-
--Sales trends
--Seasonal patterns
--Future demand forecasting
-
-This project demonstrates how statistical forecasting models can be used for real-world business prediction problems.
-
-**💡 Key Concepts Covered**
-
+```text
 Time Series Analysis
 Stationarity
 Seasonal Differencing
@@ -96,56 +106,93 @@ ARIMA
 SARIMA
 Forecasting
 Predictive Analytics
+```
 
-**🧠 Why This Project Matters**
+---
+
+# 🧠 Why This Project Matters
 
 Forecasting plays a critical role in:
 
--Inventory Management
--Demand Planning
--Revenue Prediction
--Business Decision Making
+- 📦 Inventory Management
+- 📈 Revenue Prediction
+- 🛒 Demand Planning
+- 📊 Business Decision Making
 
-This project highlights the ability to work on real-world forecasting and analytics problems using data science techniques.
+This project highlights the ability to work on real-world forecasting and analytics problems using industry-relevant data science techniques.
 
-**⚡ Installation**
+---
 
+# ⚡ Installation
+
+## Clone Repository
+
+```bash
 git clone https://github.com/your-username/champagne-sales-forecasting-time-series.git
 cd champagne-sales-forecasting-time-series
+```
 
-Install dependencies:
+## Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-**▶️ Run Project**
+---
 
+# ▶️ Run Project
+
+```bash
 jupyter notebook
+```
 
 Open:
+
+```bash
 Sales_Prediction_TimeSeries.ipynb
+```
 
-**📁 Repository Structure**
+---
 
+# 📁 Repository Structure
+
+```bash
 📦 champagne-sales-forecasting-time-series
  ┣ 📜 Sales_Prediction_TimeSeries.ipynb
  ┣ 📜 perrin-freres-monthly-champagne.csv
  ┣ 📜 README.md
  ┗ 📜 requirements.txt
- 
-**🎯 Skills Demonstrated**
+```
 
-Data Analysis
-Statistical Modeling
-Time Series Forecasting
-Data Visualization
-Predictive Analytics
-Business Forecasting
+---
 
-**👨‍💻 Author**
+# 🎯 Skills Demonstrated
 
-Shivam Rustagi
+- Time Series Forecasting
+- Statistical Modeling
+- Predictive Analytics
+- Data Visualization
+- Business Forecasting
+- Data Analysis
 
-AI/ML Engineer | Data Science & Generative AI Enthusiast
+---
 
-**⭐ Support**
+# 🏆 ATS-Friendly Keywords
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+`Time Series Forecasting` `ARIMA` `SARIMA` `Python` `Predictive Analytics` `Data Science` `Statistical Modeling` `Forecasting Models` `Business Forecasting` `Machine Learning`
+
+---
+
+# 👨‍💻 Author
+
+## Shivam Rustagi
+
+**AI/ML Engineer | Data Science & Generative AI Enthusiast**
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider starring the repository!
+
+</div>
