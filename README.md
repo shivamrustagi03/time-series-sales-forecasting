@@ -1,5 +1,6 @@
-🍾 Champagne Sales Forecasting using Time Series Analysis
-📌 Overview
+***🍾 Champagne Sales Forecasting using Time Series Analysis***
+
+**📌 Overview**
 
 This project focuses on forecasting monthly champagne sales using Time Series Analysis techniques. The workflow covers complete data preprocessing, exploratory analysis, stationarity testing, seasonal differencing, and forecasting using ARIMA/SARIMA models.
 
@@ -11,7 +12,7 @@ Predictive Modeling
 Data Visualization
 Business Forecasting
 
-🚀 Features
+**🚀 Features**
 Data Cleaning & Preprocessing
 Trend & Seasonality Analysis
 Stationarity Testing (ADF Test)
@@ -20,7 +21,7 @@ ARIMA/SARIMA Forecasting
 Future Sales Prediction
 Forecast Visualization
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 Python
 Pandas
 NumPy
@@ -28,14 +29,14 @@ Matplotlib
 Statsmodels
 Jupyter Notebook
 
-📂 Dataset
+**📂 Dataset**
 Dataset used: Perrin Freres Monthly Champagne Sales
 
 Features:
 Month
 Sales
 
-📊 Project Workflow
+**📊 Project Workflow**
 
 1️⃣ Data Preprocessing
 Handling missing values
@@ -68,7 +69,7 @@ Implemented:
 
 Generated future monthly sales predictions with visualized forecast trends.
 
-📈 Results
+**📈 Results**
 The model successfully captures:
 
 -Sales trends
@@ -77,7 +78,7 @@ The model successfully captures:
 
 This project demonstrates how statistical forecasting models can be used for real-world business prediction problems.
 
-💡 Key Concepts Covered
+**💡 Key Concepts Covered**
 
 Time Series Analysis
 Stationarity
@@ -87,7 +88,7 @@ SARIMA
 Forecasting
 Predictive Analytics
 
-🧠 Why This Project Matters
+**🧠 Why This Project Matters**
 Forecasting plays a critical role in:
 
 -Inventory Management
@@ -97,27 +98,27 @@ Forecasting plays a critical role in:
 
 This project highlights the ability to work on real-world forecasting and analytics problems using data science techniques.
 
-⚡ Installation
+**⚡ Installation**
 git clone https://github.com/your-username/champagne-sales-forecasting-time-series.git
 cd champagne-sales-forecasting-time-series
 
 Install dependencies:
 pip install -r requirements.txt
 
-▶️ Run Project
+**▶️ Run Project**
 jupyter notebook
 
 Open:
 Sales_Prediction_TimeSeries.ipynb
 
-📁 Repository Structure
+**📁 Repository Structure**
 📦 champagne-sales-forecasting-time-series
  ┣ 📜 Sales_Prediction_TimeSeries.ipynb
  ┣ 📜 perrin-freres-monthly-champagne.csv
  ┣ 📜 README.md
  ┗ 📜 requirements.txt
  
-🎯 Skills Demonstrated
+**🎯 Skills Demonstrated**
 Data Analysis
 Statistical Modeling
 Time Series Forecasting
@@ -125,11 +126,11 @@ Data Visualization
 Predictive Analytics
 Business Forecasting
 
-👨‍💻 Author
+**👨‍💻 Author**
 Shivam Rustagi
 
 AI/ML Engineer | Data Science & Generative AI Enthusiast
 
-⭐ Support
+**⭐ Support**
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
