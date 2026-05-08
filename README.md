@@ -1,4 +1,4 @@
-***🍾 Champagne Sales Forecasting using Time Series Analysis***
+****🍾 Champagne Sales Forecasting using Time Series Analysis****
 
 **📌 Overview**
 
@@ -13,6 +13,7 @@ Data Visualization
 Business Forecasting
 
 **🚀 Features**
+
 Data Cleaning & Preprocessing
 Trend & Seasonality Analysis
 Stationarity Testing (ADF Test)
@@ -22,6 +23,7 @@ Future Sales Prediction
 Forecast Visualization
 
 **🛠️ Tech Stack**
+
 Python
 Pandas
 NumPy
@@ -30,6 +32,7 @@ Statsmodels
 Jupyter Notebook
 
 **📂 Dataset**
+
 Dataset used: Perrin Freres Monthly Champagne Sales
 
 Features:
@@ -39,25 +42,30 @@ Sales
 **📊 Project Workflow**
 
 1️⃣ Data Preprocessing
+
 Handling missing values
 Datetime conversion
 Setting time index
 
 2️⃣ Exploratory Data Analysis
+
 Trend visualization
 Seasonal pattern analysis
 Rolling statistics
 
 3️⃣ Stationarity Testing
+
 Implemented:
 
 Rolling Mean & Standard Deviation
 Augmented Dickey-Fuller (ADF) Test
 
 4️⃣ Feature Engineering
+
 Seasonal Differencing
 
 Lag Analysis
+
 5️⃣ Model Building
 
 Implemented:
@@ -70,6 +78,7 @@ Implemented:
 Generated future monthly sales predictions with visualized forecast trends.
 
 **📈 Results**
+
 The model successfully captures:
 
 -Sales trends
@@ -89,6 +98,7 @@ Forecasting
 Predictive Analytics
 
 **🧠 Why This Project Matters**
+
 Forecasting plays a critical role in:
 
 -Inventory Management
@@ -99,6 +109,7 @@ Forecasting plays a critical role in:
 This project highlights the ability to work on real-world forecasting and analytics problems using data science techniques.
 
 **⚡ Installation**
+
 git clone https://github.com/your-username/champagne-sales-forecasting-time-series.git
 cd champagne-sales-forecasting-time-series
 
@@ -106,12 +117,14 @@ Install dependencies:
 pip install -r requirements.txt
 
 **▶️ Run Project**
+
 jupyter notebook
 
 Open:
 Sales_Prediction_TimeSeries.ipynb
 
 **📁 Repository Structure**
+
 📦 champagne-sales-forecasting-time-series
  ┣ 📜 Sales_Prediction_TimeSeries.ipynb
  ┣ 📜 perrin-freres-monthly-champagne.csv
@@ -119,6 +132,7 @@ Sales_Prediction_TimeSeries.ipynb
  ┗ 📜 requirements.txt
  
 **🎯 Skills Demonstrated**
+
 Data Analysis
 Statistical Modeling
 Time Series Forecasting
@@ -127,6 +141,7 @@ Predictive Analytics
 Business Forecasting
 
 **👨‍💻 Author**
+
 Shivam Rustagi
 
 AI/ML Engineer | Data Science & Generative AI Enthusiast
